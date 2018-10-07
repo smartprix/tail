@@ -1,0 +1,31 @@
+{
+  "name": "@smpx/tail",
+  "version": "0.1.0",
+  "description": "Watch and tail a file in nodejs",
+  "main": "tail.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartprix/tail.git"
+  },
+  "keywords": [
+    "tail",
+    "file",
+    "logs",
+    "tail",
+    "-n",
+    "tail",
+    "-f",
+    "watch",
+    "readline",
+    "stream"
+  ],
+  "author": "Hitesh Khandelwal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smartprix/tail/issues"
+  },
+  "homepage": "https://github.com/smartprix/tail#readme"
+}
