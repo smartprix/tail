@@ -1,5 +1,5 @@
 # @smpx/tail
-Watch and tail a file in nodejs `tail -f -n` &nbsp; 🎉 **No Dependencies**
+Watch and tail a file in nodejs `tail -f -n` &nbsp; &nbsp; 🎉 **No Dependencies**
 
 ### Install
 ```sh
@@ -37,7 +37,7 @@ stream.close();
 
 ### API
 
-##### tail(filename, options)
+#### tail(filename, options)
 * `filename`: Path of the file to tail
 * `options`:
   * `bufferSize`: Use this bufferSize when reading from the file (default `2048`)
