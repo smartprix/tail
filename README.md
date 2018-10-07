@@ -1,5 +1,5 @@
 # @smpx/tail
-Watch and tail a file in nodejs `tail -f -n` 🎉 **No Dependencies**
+Watch and tail a file in nodejs `tail -f -n` &nbsp; 🎉 **No Dependencies**
 
 ### Install
 ```sh
@@ -46,16 +46,16 @@ stream.close();
   * `watch`: Whether to watch the file for changes (default `false`) (similar to `tail -f`)
     * Setting this to true will keep the process alive until you call `close`
   * `filter`: An optional function to emit only those lines which pass the criteria
-    * ```js
-      const stream = tail('/var/log/syslog', {
-          numLines: 20,
-          watch: true,
-          filter: (line) => {
-              if (!line) return false;
-              return JSON.parse(line).level === 'error';
-          }
-      });
-      ```
+    ```js
+    const stream = tail('/var/log/syslog', {
+        numLines: 20,
+        watch: true,
+        filter: (line) => {
+            if (!line) return false;
+            return JSON.parse(line).level === 'error';
+        }
+    });
+    ```
 
 **Returns**:
 
